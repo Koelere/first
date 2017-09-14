@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { EntryComponent } from './entry/entry.component';
+import { DisplayComponent } from './display/display.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EntryComponent,
+    DisplayComponent
   ],
   imports: [
     BrowserModule,
