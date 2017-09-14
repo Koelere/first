@@ -7,11 +7,14 @@ import {SharedService} from './shared.service';
 import { AppComponent } from './app.component';
 import { EntryComponent } from './entry/entry.component';
 import { DisplayComponent } from './display/display.component';
+<<<<<<< HEAD
 
 const name:Routes = [
   {path:'entry',component:EntryComponent},
   {path:'display',component:DisplayComponent}
 ]
+=======
+>>>>>>> 1ec95cb2a2fba61478823dd13f52bcb2dd21d603
 
 @NgModule({
   declarations: [

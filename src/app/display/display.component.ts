@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
 import { SharedService} from '../shared.service';
+=======
+>>>>>>> 1ec95cb2a2fba61478823dd13f52bcb2dd21d603
 
 @Component({
   selector: 'app-display',
@@ -7,6 +10,7 @@ import { SharedService} from '../shared.service';
   styleUrls: ['./display.component.css']
 })
 export class DisplayComponent implements OnInit {
+<<<<<<< HEAD
   studNo:number;
   studFname:string;
   studLname:string;
@@ -24,6 +28,12 @@ export class DisplayComponent implements OnInit {
     this.studYr = this.dataStore.shYear;
     this.studProg = this.dataStore.shProg;
     this.nameCollection=this.dataStore.getNames();
+=======
+
+  constructor() { }
+
+  ngOnInit() {
+>>>>>>> 1ec95cb2a2fba61478823dd13f52bcb2dd21d603
   }
 
 }
